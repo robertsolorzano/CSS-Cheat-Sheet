@@ -10,8 +10,6 @@ body {
     color: #fff;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    justify-content: flex-start;
     align-items: center;
     font-family: 'Source Code Pro', monospace;
 }
@@ -29,21 +27,20 @@ h1 {
 
 .flex-grid {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    columns: 2;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .css-card {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     width: 400px;
     border-style: dashed;
     border-color: #fff;
     border-width: 3px;
     padding: 10px;
-    margin: 20px;
+    margin: 60px;
 }
 
 h2 {
@@ -63,7 +60,6 @@ h2 {
 
 .css-code p {
     display: block;
-    font-family: 'Courier New', Courier, monospace;
     color: white;
     margin-left: 5px;
     user-select: all;
