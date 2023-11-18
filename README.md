@@ -1,5 +1,5 @@
 # CSS-Cheat-Sheet
-Copy and Paste for CSS Styles
+Here are some commonly-used snippets of CSS code. Select any snippet of code below and it will automatically select all of the code for you to copy.
 
 
 ## Link
